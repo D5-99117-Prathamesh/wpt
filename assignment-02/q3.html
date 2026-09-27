@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+
+<body>
+    <h2 align="center">Student Registration</h2>
+    <p align="center">
+        <img src="https://api.sunbeaminfo.in/uploads/uploads/upload-1778747784819-9aeac009.jpg"
+            width="600" height="120" alt="Sunbeam registration banner">
+    </p>
+
+    <form method="post" action="#">
+        <table border="1" align="center">
+            <tbody>
+                <tr>
+                    <td><b>Name</b></td>
+                    <td><input type="text" name="name" required></td>
+                    <td><b>Mobile</b></td>
+                    <td><input type="tel" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td><b>Email</b></td>
+                    <td><input type="email" name="email" required></td>
+                    <td><b>City</b></td>
+                    <td>
+                        <select name="city">
+                            <option value="">Select city</option>
+                            <option>Pune</option>
+                            <option>Mumbai</option>
+                            <option>Nagpur</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Username</b></td>
+                    <td><input type="text" name="username"></td>
+                    <td><b>Password</b></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><b>Gender</b></td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                    <td><b>Hobbies</b></td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="reading"> Reading
+                        <input type="checkbox" name="hobby" value="music"> Music
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Address</b></td>
+                    <td colspan="3"><textarea name="address" rows="3" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <input type="submit" value="save">
+                        <input type="reset" value="clear">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <p align="center">Sunbeam website preview:</p>
+    <div align="center">
+        <iframe src="https://www.sunbeaminfo.com" width="600" height="300"
+            title="Sunbeam website preview"></iframe>
+    </div>
+</body>
+
+</html>
